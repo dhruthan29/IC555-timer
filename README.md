@@ -27,6 +27,8 @@ On trigger (negative pulse on pin 2): Output goes HIGH
 Capacitor C charges through resistor R
 Once ( V_C \geq \frac{2}{3}V_{CC} ), output returns LOW
 # Circuit Diagram
+![Screenshot 2025-05-27 182158](https://github.com/user-attachments/assets/2ce9c8ba-5391-4b98-a0b1-2a625b813cba)
+
 1 Connect the 555 timer in monostable mode as per the circuit diagram.
 2 Choose R = 470 Ω and C = 1 µF for a pulse width of approximately 0.5 ms.
 3 Connect a signal generator or push-button to provide a trigger at pin 2.
@@ -36,6 +38,8 @@ Output pin 3
 Measure the width of the output pulse using an oscilloscope or simulation software.
 6 Verify the output pulse width matches the theore
 # Simulation Results
+![Screenshot 2025-05-27 182048](https://github.com/user-attachments/assets/c72aaf31-8488-4a91-9b6d-63a146349626)
+
 # Conclusion
 The 555 timer IC in monostable mode acts as a one-shot pulse generator. When triggered, it produces a single, stable HIGH output for a duration determined by external resistor and capacitor values (T = 1.1 × R × C).
 # Inference
@@ -47,6 +51,11 @@ The 555 timer IC in monostable mode acts as a one-shot pulse generator. When tri
 
 # Astable Multivibrator
 An astable multivibrator is a circuit that continuously oscillates between high and low output states without requiring any external trigger. When configured this way, the 555 timer IC acts as an oscillator or square wave generator.oscillates continuously between high and low output states. The time duration of the high and low states is determined by two resistors and a capacitor connected externally to the 555 Timer IC. These components form an RC timing network that defines the frequency and duty cycle of the output waveform.
+# Circuit Diagram
+
+![Screenshot 2025-05-28 104414](https://github.com/user-attachments/assets/e22bac3c-8de1-4906-88e3-fbc6d5358b4a)
+
+
 # Procedure
 1 Construct the Circuit Build the complete circuit as per the provided circuit diagram. The setup should include the Astable Multivibrator, Differentiator, Clipper, and Monostable Multivibrator stages.
 2 Calculate Component Values For the Astable Multivibrator, calculate the appropriate values of resistors (R1 and R2) and capacitor (C) to achieve the desired output frequency and duty cycle.
@@ -55,6 +64,11 @@ An astable multivibrator is a circuit that continuously oscillates between high 
 5 Triggering and Signal FlowUse the output of the Clipper circuit (clipped spikes) as the trigger input for the Monostable Multivibrator. Analyze Waveforms Observe and analyze the charging and discharging behavior of the capacitors at each stage using an oscilloscope or simulation tool.
 6 Confirm the output waveform characteristics of each block (Astable, Differentiator, Clipper, Monostable).
 Verify Time Parameters Measure the TON period of the Monostable Multivibrator when the trigger input is applied and compare it with the calculated value.
+# Simulation Results
+
+![Screenshot 2025-05-28 104453](https://github.com/user-attachments/assets/a347682f-a8a7-46b1-ae39-e28a19c44cc3)
+
+
 # Conclusion
 The astable multivibrator configuration of the 555 timer enables it to function as a continuous square wave generator without any external triggering. It automatically switches between HIGH and LOW states, making it suitable for applications such as:
 LED blinkers
