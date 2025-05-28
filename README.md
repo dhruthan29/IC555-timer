@@ -3,9 +3,15 @@
 # Aim 
 To design, simulate, and analyze a monostable multivibrator circuit using a 555 timer IC that generates a single output pulse of 0.5 ms duration in response to a trigger signal
 # Introduction
-The 555 timer IC is a highly versatile integrated circuit used for generating precise time delays or oscillations. It can be configured in several modes
+The 555 timer IC is a highly versatile integrated circuit used for generating precise time delays or oscillations. 
+It can be configured in several modesA monostable multivibrator, also known as a one-shot multivibrator,
+is an electronic circuit that has one stable state and one unstable (quasi-stable) state. Upon receiving an external trigger, 
+it temporarily switches to the unstable state for a predetermined duration before returning to its stable state
+In its default stable state, the circuit remains inactive. When a trigger pulse is applied, the circuit transitions to its unstable state, 
+producing an output pulse. After a specific time period—determined by the circuit's resistor (R) and capacitor (C) values—it automatically
+reverts to its stable state. This time duration is typically calculated using the formula
 # Applications:
-Switch debouncing
+Switch debouncing 
 Pulse stretching
 Frequency-to-time conversion
 Missing pulse detection
