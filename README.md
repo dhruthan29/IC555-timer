@@ -73,12 +73,18 @@ An astable multivibrator is a circuit that continuously oscillates between high 
 
 # Procedure
 1 Construct the Circuit Build the complete circuit as per the provided circuit diagram. The setup should include the Astable Multivibrator, Differentiator, Clipper, and Monostable Multivibrator stages.
+
 2 Calculate Component Values For the Astable Multivibrator, calculate the appropriate values of resistors (R1 and R2) and capacitor (C) to achieve the desired output frequency and duty cycle.
+
 3 For the Differentiator circuit, choose resistor and capacitor values suitable for producing sharp spikes from the input waveform.
+
 4 Design the Clipper circuit to clip the positive spikes appropriately. For the Monostable Multivibrator, compute R and C using the formula: T=1.1×R×C to obtain the desired pulse width.
+
 5 Triggering and Signal FlowUse the output of the Clipper circuit (clipped spikes) as the trigger input for the Monostable Multivibrator. Analyze Waveforms Observe and analyze the charging and discharging behavior of the capacitors at each stage using an oscilloscope or simulation tool.
+
 6 Confirm the output waveform characteristics of each block (Astable, Differentiator, Clipper, Monostable).
 Verify Time Parameters Measure the TON period of the Monostable Multivibrator when the trigger input is applied and compare it with the calculated value.
+
 # Simulation Results
 
 ![Screenshot 2025-05-28 104453](https://github.com/user-attachments/assets/a347682f-a8a7-46b1-ae39-e28a19c44cc3)
