@@ -35,6 +35,9 @@ Once ( V_C \geq \frac{2}{3}V_{CC} ), output returns LOW
 # Circuit Diagram
 ![Screenshot 2025-05-27 182158](https://github.com/user-attachments/assets/2ce9c8ba-5391-4b98-a0b1-2a625b813cba)
 
+
+
+# Procedure
 1 Connect the 555 timer in monostable mode as per the circuit diagram.
 2 Choose R = 470 Ω and C = 1 µF for a pulse width of approximately 0.5 ms.
 3 Connect a signal generator or push-button to provide a trigger at pin 2.
