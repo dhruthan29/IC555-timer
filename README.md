@@ -39,13 +39,19 @@ Once ( V_C \geq \frac{2}{3}V_{CC} ), output returns LOW
 
 # Procedure
 1 Connect the 555 timer in monostable mode as per the circuit diagram.
+
 2 Choose R = 470 Ω and C = 1 µF for a pulse width of approximately 0.5 ms.
+
 3 Connect a signal generator or push-button to provide a trigger at pin 2.
+
 4 Observe the voltage at:
 Output pin 3
+
 5 Capacitor charging at pin 6
 Measure the width of the output pulse using an oscilloscope or simulation software.
+
 6 Verify the output pulse width matches the theore
+
 # Simulation Results
 ![Screenshot 2025-05-27 182048](https://github.com/user-attachments/assets/c72aaf31-8488-4a91-9b6d-63a146349626)
 
